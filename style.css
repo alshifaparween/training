@@ -1,0 +1,13 @@
+.image {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqxDHtIdFeU8hU3enTDIo3hDI-yeBzeLA86o_kSnrpV6SHsN6oDM7WzNnfLXE5lDSlIbA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 70vh;
+  width: 100%;
+}
+.para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
