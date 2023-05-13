@@ -61,6 +61,7 @@
 // let z = "javascript is a great languge is"
 // console.log(z.indexOf("is", 23));
 
-let num=56.10;
-let number=num.toPrecision(2)
+let num = 56.10;
+// let number=num.toPrecision(2)
+let number = num.toFixed(1)
 console.log(number);
