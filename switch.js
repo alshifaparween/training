@@ -50,7 +50,7 @@
 // }
 //string method
 // 1)length(property) 2)toLowerCase() 3)toUpperCase()4)includes() 5)indexOf() 6)lastIndexOF() 7)concat() 8)split()
-// 9)substr() 10)slice() 11)toString() 12)join() 13)ResizeObserverSize() 14)subString()
+// 9)substr() 10)slice() 11)toString() 12)join() 13)Replace() 14)subString() 15)
 // let str="i love india"
 // let str1=" react"
 // let str2=" bootstrap"
