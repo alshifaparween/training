@@ -45,3 +45,102 @@
 //     }
 // }
 // console.log(res);
+// var sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 == 1)
+//         sum = sum + i;
+
+// }
+// console.log(sum);
+// var num = 0;
+// for (let i = 2; i <= 20; i++) {
+//     if (i % 2 == 1)
+//         num = num + i;
+
+// }
+// console.log(num);
+// var max = ["30", "25", "76", "40"]
+// var res = max[0]
+// for (let i = 0; i > max.length; i++) {
+//     if (max[i] > res) {
+//         res = max[i]
+//     }
+
+// }
+// console.log(res);
+// var max = [112, 789, 234, 124, 789.098]
+// var res = max[0]
+// for (let i = 0; i < max.lengt; i++) {
+//     if (max[i] > res) {
+//         res = max[i]
+//     }
+// }
+// console.log(res);
+// var sum = 0;
+// var Array = [12, 23, 69, 00, 75, 76]
+// for (let i = 0; i < Array.length; i++) {
+//     sum = sum + Number(Array[i])
+// }
+// console.log(sum);
+
+
+
+// 1 
+let array = [2, 4, 2, 4, 2, 4, 5, 5, 6, 7]
+
+let dabba = []
+for (let i = 0; i < array.length; i++) {  // array[i]= 2
+    let count = 0
+    for (let j = 0; j < array.length; j++) { //  array[j] = 2,4...
+        if (!dabba.includes(array[i]) && array[i] == array[j]) {
+            count += 1
+            // for finding duplicate
+            // if (count > 1) {
+            //     dabba.push(array[i])
+            //     break;
+            // }
+
+        }
+    }
+    // for removing duplicate
+    if (count == 1) {
+        dabba.push(array[i])
+    }
+}
+console.log("dabba", dabba)
+
+// function checkDup(arr) {
+//     let dabba = []
+//     for (let i = 0; i < array.length; i++) {  // array[i]= 2
+//         let count = 0
+//         for (let j = 0; j < array.length; j++) { //  array[j] = 2,4...
+//             if (!dabba.includes(array[i]) && array[i] == array[j]) {
+//                 count += 1
+//                 if (count > 1) {
+//                     dabba.push(array[i])
+//                     break;
+//                 }
+
+//             }
+//         }
+//     }
+//     return dabba
+// }
+
+
+// let returnValue = checkDup(array)
+// console.log("return", returnValue)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
