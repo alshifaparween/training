@@ -38,32 +38,32 @@
 // })
 // console.log(array[1]);
 //finding duplicate from an array
-// let array = [12, 13, 14, 12, 15, 16, 15, 17, 18, 17]
-// let container = []
-// for (let i = 0; i < array.length; i++) {
-
-//     let count = 1
-//     for (let j = i + 1; j < array.length; j++) {
-//         if (array[i] == array[j]) {
-//             // container.push(array[j])
-//             count = count + 1
-//         }
-//     }
-
-//     if (count == 2) {
-//         container.push(array[i])
-//     }
-
-// }
-// console.log(container);
-
-//how to remove duplicate from an array
 let array = [12, 13, 14, 12, 15, 16, 15, 17, 18, 17]
-let res = []
+let container = []
 for (let i = 0; i < array.length; i++) {
-    if (res.indexOf(array[i]) == -1) {
-        res.push(array[i])
+
+    let count = 1
+    for (let j = i + 1; j < array.length; j++) {
+        if (array[i] == array[j]) {
+            // container.push(array[j])
+            count = count + 1
+        }
+    }
+
+    if (count == 2) {
+        container.push(array[i])
     }
 
 }
-console.log(res);
+console.log(container);
+
+//how to remove duplicate from an array
+// let array = [12, 13, 14, 12, 15, 16, 15, 17, 18, 17]
+// let res = []
+// for (let i = 0; i < array.length; i++) {
+//     if (res.indexOf(array[i]) == -1) {
+//         res.push(array[i])
+//     }
+
+// }
+// console.log(res);
