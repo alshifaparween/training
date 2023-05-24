@@ -15,22 +15,23 @@
 //checking anagram
 
 // console.log(isAnagram(firstWord, secondWord));
-// function checkStringsAnagram(a, b) {
-//     let len1 = a.length;
-//     let len2 = b.length;
-//     if (len1 !== len2) {
-//         console.log('Invalid Input');
-//         return
-//     }
-//     let str1 = a.split('').sort().join('');
-//     let str2 = b.split('').sort().join('');
-//     if (str1 === str2) {
-//         console.log("false");
-//     } else {
-//         console.log("true");
-//     }
-// }
-// checkStringsAnagram("Mary", "Army")
+function checkStringsAnagram(a, b) {
+    let len1 = a.toLowerCase();
+    let len2 = b.toLowerCase();
+    // if (len1 !== len2) {
+    //     console.log('Invalid Input');
+    //     return
+    // }
+    let str1 = len1.split('').sort().join('');
+    let str2 = len2.split('').sort().join('');
+    if (str1 === str2) {
+        console.log("true");
+    } else {
+        console.log("false");
+    }
+}
+checkStringsAnagram("Mary", "Army")
+
 //find second largest number from an array
 // let array = [12, 34, 23, 45, 67, 78, 90]
 // array.sort(function (a, b) {
@@ -38,24 +39,29 @@
 // })
 // console.log(array[1]);
 //finding duplicate from an array
-let array = [12, 13, 14, 12, 15, 16, 15, 17, 18, 17]
-let container = []
-for (let i = 0; i < array.length; i++) {
+// let array = [12, 13, 14, 12, 15, 16, 15, 17, 18, 17]
+// let container = []
+// for (let i = 0; i < array.length; i++) {
 
-    let count = 1
-    for (let j = i + 1; j < array.length; j++) {
-        if (array[i] == array[j]) {
-            // container.push(array[j])
-            count = count + 1
-        }
-    }
+//     let count = 1
+//     for (let j = i + 1; j < array.length; j++) {
+//         if (array[i] == array[j]) {
 
-    if (count == 2) {
-        container.push(array[i])
-    }
+//             count = count + 1
+//         }
+//     }
 
-}
-console.log(container);
+//     if (count == 2) {
+//         container.push(array[i])
+//     }
+
+// }
+// let sum = 0
+// for (let index = 0; index < container.length; index++) {
+
+//     sum = sum + container[index]
+// }
+// console.log(sum);
 
 //how to remove duplicate from an array
 // let array = [12, 13, 14, 12, 15, 16, 15, 17, 18, 17]
@@ -67,3 +73,12 @@ console.log(container);
 
 // }
 // console.log(res);
+
+// let arr = [12, 11, 12, 13, 11, 14, 15, 16, 11, 11, 16, 8, 10, 65];
+
+//  output --->
+// let result = {
+//     "12" : 2,
+//     "11" : 4,
+//     "16" : 2,
+// }

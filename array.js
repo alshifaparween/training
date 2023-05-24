@@ -42,6 +42,25 @@ let str = "the father of computer is charles babbage"
 //console.log(str.indexOf("father"));
 //console.log(str.includes("computer"));
 //console.log(str.concat(str2));
-//console.log(str.split(" ").reverse(" ").join(" "));
-//console.log(str.slice(0, 22));
-console.log(str.splice());
+// console.log(str.split(" ").reverse(" ").join(" "));
+// console.log(str.slice(0, 22));
+
+// let res = str.split(' ');
+// res.splice(3, 1);
+// let a = res.join(" ")
+// console.log(a);
+
+// let a = ["aa", "bb"]
+
+// let ab = a.join("")
+// console.log(ab);
+
+
+//removing something from an array
+
+let arr = "javascript is very hard language "
+let res = arr.split(' ');
+res.splice(3, 1);
+let resp = res.join(' ')
+
+console.log(resp);
