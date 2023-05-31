@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .main {
+            background-color: rgb(100, 116, 3);
+            height: 70px;
+            width: 100%;
+            display: flex;
+
+            justify-content: space-between;
+        }
+
+        .main a {
+            color: rgb(255, 254, 246);
+            text-decoration: none;
+            width: 20%;
+            margin: 30px 30px;
+        }
+
+        .nav {
+            margin-top: 25px;
+
+        }
+
+        .row {
+            margin-top: 25px;
+            font-size: 30px;
+            font-weight: 10px;
+        }
+
+        .pic {
+            background-color: rgb(100, 116, 3);
+            color: rgb(255, 254, 246);
+            height: 500px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+
+        .box1 {
+            margin: 50px 50px;
+
+        }
+
+        .box1 h1 {
+            font-size: 80px;
+        }
+
+        .box2 img {
+            height: 450px;
+            width: 450px;
+            padding: 20px 50px;
+            opacity: 0.8;
+            border-radius: 70px;
+        }
+
+        .box1 p {
+            margin: 10px 0px;
+        }
+
+        .hr {
+            width: 190px;
+        }
+
+
+
+        .but {
+            margin: 15px 5px;
+            color: rgb(255, 254, 246);
+            border: 1px solid white;
+            background-color: rgb(100, 116, 3);
+            border-radius: 25px;
+            padding: 2px 8px;
+
+        }
+
+        .r {
+            background-color: rgb(42, 63, 7);
+            color: rgb(255, 254, 246);
+            text-decoration: none;
+            border-radius: 25px;
+            padding: 3px 15px;
+            border: none;
+
+
+        }
+
+        .r:hover {
+            background-color: darkgreen;
+            color: white;
+        }
+
+        .nav a:hover {
+            border-bottom: 2px solid white;
+            width: 20px;
+            transition: all 2s;
+        }
+
+        .row2 {
+            display: grid;
+
+            width: 900px;
+            row-gap: 50px;
+            column-gap: 20px;
+            grid-template-columns: 500px 500px;
+            grid-template-rows: 200px 200px 200px;
+            justify-content: center;
+            margin: auto;
+            margin-top: 60px;
+
+
+        }
+
+        .row5 {
+            background-color: white;
+            grid-area: 1/1/4/2;
+
+        }
+
+        .row6 {
+            background-color: white;
+            grid-area: 1/2/2/3;
+            display: flex;
+        }
+
+        .pic1 img {
+            height: 50px;
+            width: 50px;
+            border: 1px solid lightgray;
+            border-radius: 50%;
+            margin: 0px 10px;
+        }
+
+        .row7 {
+            background-color: white;
+            grid-area: 2/2/3/3;
+            display: flex;
+        }
+
+
+
+
+
+
+        .row5:hover {
+            box-shadow: 0px 0px 10px 5px rgb(59, 19, 19);
+            border-radius: 8px;
+
+        }
+
+        .row6:hover {
+            box-shadow: 0px 0px 10px 5px rgb(59, 19, 19);
+            border-radius: 8px;
+            padding-bottom: 90px;
+
+
+        }
+
+        .row7:hover {
+            box-shadow: 0px 0px 10px 5px rgb(59, 19, 19);
+            border-radius: 8px;
+
+
+        }
+
+        .row7 img {
+            width: 200px;
+            height: 200px;
+
+        }
+
+        .pic2 {
+            display: flex;
+        }
+
+        .para2 {
+            /* margin: 20px 20px; */
+        }
+
+        .para button {
+            margin: 10px 20px;
+            border-radius: 15px;
+            background-color: white;
+            padding: 3px 8px;
+            border: 1px solid darkgrey;
+        }
+
+        .hr {
+            width: 230px;
+            margin: 10px 5px 10px 20px;
+        }
+
+        .cont8 img {
+            height: 50px;
+            width: 50px;
+            border: 1px solid lightgray;
+            border-radius: 50%;
+            margin: 0px 10px;
+        }
+
+
+
+        .row8 img {
+
+            width: 150px;
+            height: 150px;
+
+
+        }
+
+        .row8 {
+            background-color: white;
+            grid-area: 3/2/4/3;
+            display: flex;
+
+
+        }
+
+        .jon3 img {
+            height: 50px;
+            width: 50px;
+            border: 1px solid lightgray;
+            border-radius: 50%;
+            margin: 5px 10px;
+
+        }
+
+        .pasta img {
+            width: 200px;
+            height: 200px;
+
+            margin: 0px 15px 0px 0px;
+
+        }
+
+        .jon5 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .im2 img {
+            height: 50px;
+            width: 50px;
+            border: 1px solid lightgray;
+            border-radius: 50%;
+            margin: 3px 10px;
+
+
+        }
+
+        .cont10 button {
+            margin: 10px 20px;
+            border-radius: 15px;
+            background-color: white;
+            padding: 3px 8px;
+            border: 1px solid darkgrey;
+
+        }
+
+        .cont2 img {
+            height: 200px;
+            width: 200px;
+        }
+
+        .cont7 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .hr2 {
+            margin: 20px 10px;
+        }
+
+        .cont4 button {
+            margin: 0px 20px;
+            border-radius: 15px;
+            background-color: white;
+            padding: 3px 8px;
+            border: 1px solid darkgrey;
+
+        }
+
+        .cont4 h4 {
+            margin: 10px 10px;
+        }
+
+        .cont11 button {
+            margin: 10px 0px 5px 10px;
+            border-radius: 15px;
+            background-color: white;
+            padding: 3px 10px;
+            border: 1px solid darkgrey;
+
+
+        }
+
+        .hr3 {
+            margin: 10px 10px;
+
+        }
+
+        .cont11 h4 {
+            margin: 10px 10px;
+
+
+        }
+
+        .jon6 {
+            padding: 10px 0px;
+        }
+
+        .jon {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .js h4 {
+            margin: 20px 0px;
+        }
+
+        .jon2 {
+            margin: 10px 0px;
+        }
+
+        .cont9 p {
+            margin: 10px 0px;
+        }
+
+        .head h3 {
+            margin: 10px 40px;
+        }
+
+        .no img {
+            height: 300px;
+            width: 500px;
+
+        }
+
+        .row8:hover {
+            box-shadow: 0px 0px 10px 5px rgb(59, 19, 19);
+            border-radius: 8px;
+
+
+        }
+
+        .main1 {
+            display: grid;
+            grid-template-columns: 80px 80px 80px 80px 80px;
+            grid-template-rows: 80px;
+            grid-gap: 30px;
+            margin: auto;
+            width: 800px;
+            margin-top: 15px;
+
+
+
+        }
+
+        .fa {
+            background-color: darkgoldenrod;
+            font-size: 70px;
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="row"><a href="#">MY FOOD</a>
+        </div>
+        <div class="nav">
+            <a href="">Home</a>
+            <a href="">Recipes</a>
+            <a href="">Tips</a>
+            <a href="">Contact</a>
+        </div>
+    </div>
+
+    <div class="pic">
+        <div class="box1">
+            <h1>BROWNIE <br> MAGIC</h1>
+            <p>5 tips how to make <br>the best brownies in the game</p>
+            <hr class="hr">
+            <button class="but">How to</button> &nbsp; <button class="but">Baking</button> <br>
+            <button class="r">Read Now</button>
+        </div>
+        <div class="box2"> <img src="https://assets.api.uizard.io/api/cdn/stream/dbf5a6ee-f890-44b5-81c5-6844a0950887.png
+            " alt="">
+        </div>
+    </div>
+
+    <div class="row2">
+
+
+
+        <div class="row5">
+            <div class="head">
+                <h3>gift guide for foodies</h3>
+            </div>
+            <div class="no"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxLawv5wIa19V-Ot_Kuw7dBXXrOVSSucpGyA&usqp=CAU"
+                    alt=""></div>
+            <div class="para"><button>products </button>
+                <hr class="hr">
+
+            </div>
+            <div class="pic2">
+                <div class="pic1"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3qBVX4XIA8zq3LpBn64zAuOt9_IZ7_H5uA&usqp=CAU"
+                        alt=""></div>
+                <div class="para2">
+                    <p>peter pan <br>march 20, 2023</p>
+                </div>
+            </div>
+        </div>
+        <div class="row6">
+            <div class="cont2"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9C5vVEaxlGdR5B-DEePHkmXw6lSq35Yqqdg&usqp=CAU"
+                    alt=""></div>
+            <div class="cont3">
+                <div class="cont4">
+                    <h4>creamy dounuts</h4> <br> <button>Dinner</button>
+                    <hr class="hr2">
+                </div>
+                <div class="cont7">
+                    <div class="cont8"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvP_XHlj98KPywzLs71_hpQYUcJPJD3hQjdg&usqp=CAU"
+                            alt=""></div>
+                    <div class="cont9">
+                        <p>jane baker <br>march 13,2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row7">
+            <div class="im"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUwbJiSYVsVbu7UxJrIKx2jIP3O-YO_ypsJw&usqp=CAU"
+                    alt=""></div>
+            <div class="jon4">
+                <div class="cont11">
+                    <h4>weekday linch tip: <br>cuisine time</h4> <br><button>food</button>
+                    <hr class="hr3">
+                </div>
+
+                <div class="jon5">
+                    <div class="im2"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIV99IJOGUBMQBy9kccOQsAyq36yzt0BRYUw&usqp=CAU"
+                            alt=""></div>
+                    <div class="jon6">peter paker <br>march13,2023</div>
+                </div>
+            </div>
+        </div>
+        <div class="row8">
+            <div class="pasta">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxAJcSQRs2u2vkyS5GoKLm66Op0CqWt0rjg&usqp=CAU"
+                    alt="">
+            </div>
+            <div class="js">
+                <div class="cont10">
+                    <h4>weekday dinner tip: <br>burger time</h4> <br><button>burger</button>
+                    <hr>
+                </div>
+                <div class="jon">
+                    <div class="jon3"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXxlksKayt1TUc0StoxGNgdkImklao4yKl5Q&usqp=CAU"
+                            alt=""></div>
+                    <div class="jon2">john linguini <br>march13,2023</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    <div class="main1">
+        <i class="fa fa-coffee"></i>
+        <i class="fa fa-cutlery"></i>
+        <i class="fa fa-glass"></i>
+        <i class="fa fa-spoon"></i>
+        <i class="fa fa-birthday-cake"></i>
+
+    </div>
+</body>
+
+</html>
