@@ -167,29 +167,29 @@
 
 
 
-// //call back function
-// //function alshifa(a) {
+call back function
+function alshifa(a) {
 
-// //}
-// //let c = alshifa(3)
-// //console.log(c);
+}
+let c = alshifa(3)
+console.log(c);
 
-// //function sum(x) {
-//   //  return 7 + x
-// //}
-// //let y = sum(5)
-// //console.log(y);
-// //let z = alshifa(sum(5))
-// //console.log(z);
+function sum(x) {
+    return 7 + x
+}
+//let y = sum(5)
+//console.log(y);
+//let z = alshifa(sum(5))
+//console.log(z);
 
-// function num(para) {
-//     let i = 2
-//     return i + para
-// }
-// let t = num(4)
-// console.log(t);
+function num(para) {
+    let i = 2
+    return i + para
+}
+let t = num(4)
+console.log(t);
 
-// let s = sum(num(4))
+let s = sum(num(4))
 // console.log(s);
 
 // //map method in javascript
