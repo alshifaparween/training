@@ -1,0 +1,102 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  /* color: #61dafb; */
+  color: black;
+}
+
+
+
+.nav-link {
+  color: white;
+
+}
+
+
+
+.row1 {
+  background-color: #61dafb;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.card img {
+  height: 300px;
+  width: 300px;
+}
+
+.desing {
+  background-color: #090C2D;
+  height: 500px;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  background-size: 100% 100%;
+}
+
+/* .container img {
+  height: 300px;
+  width: 300px;
+} */
+
+.pic img {
+  height: 400px;
+  width: 300px;
+
+}
+
+.contact h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+
+.heading {
+  margin-top: 80px;
+  margin-left: 50px;
+  font-size: 70px;
+}
+
+.para {
+  text-align: center;
+
+}
+
+.form {
+  background-color: #090C2D;
+  /* height: 450px;
+  width: 400px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center; */
+
+
+}
+
+.pic {
+  transition: 3000ms;
+
+}
+
+:hover.pic {
+  transform: scale(1.2);
+}
+
+.heading {
+  transition: 3000ms;
+}
+
+:hover.heading {
+  transform: scale(1.1);
+}
