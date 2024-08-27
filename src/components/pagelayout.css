@@ -1,0 +1,26 @@
+.midsec-1 {
+    background-color: #ebebeb;
+    padding: 100px 65px;
+}
+.benesec-1 p {
+    padding: 3px;
+    font-size: 14px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.col-lg-6 img{
+    width: 650px;
+    height: 500px;
+} 
+
+.btncallbk{
+    background-color: #18042b;
+    border: none;
+    color: white;
+    padding: 1%;
+    margin-left: 7%;
+}
+p{
+    font-family: "poppins", sans-serif;
+}

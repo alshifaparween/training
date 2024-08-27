@@ -1,0 +1,14 @@
+.container-fluid
+.img{
+
+     
+        transition: 3000ms;
+}
+      
+      
+      
+      :hover.img{
+        transform: scale(1.2);
+      }
+      
+      
