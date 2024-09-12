@@ -1,0 +1,18 @@
+
+.slideclient{
+    display: flex;
+    width: 100%;
+}
+.slideclient img{
+    filter: grayscale(2);
+}
+.slideclient img:hover{
+    filter: grayscale(0);
+    transition: 0.5s;
+}
+.client_sec{
+    width: fit-content !important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}

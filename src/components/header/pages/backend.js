@@ -1,0 +1,1 @@
+export const BServer='https://api.talnfinium.cloud'

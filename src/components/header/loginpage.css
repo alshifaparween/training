@@ -1,0 +1,297 @@
+/* From Uiverse.io by Smit-Prajapati 
+.container {
+    max-width: 350px;
+    background: #F8F9FD;
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(244, 247, 251) 100%);
+    border-radius: 40px;
+    padding: 25px 35px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+    margin: 20px;
+    margin-top: 100px;
+  }
+  
+  .heading {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(16, 137, 211);
+    
+  }
+  
+  .form {
+  
+  }
+  
+  .form .input {
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    box-shadow: #cff0ff 0px 10px 10px -5px;
+    border-inline: 2px solid transparent;
+   
+  }
+  
+
+
+
+
+  .form .input::-moz-placeholder {
+    color: rgb(170, 170, 170);
+  }
+  
+  .form .input::placeholder {
+    color: rgb(170, 170, 170);
+  }
+  
+  .form .input:focus {
+    outline: none;
+    border-inline: 2px solid #12B1D1;
+  }
+  
+  .form .forgot-password {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .form .forgot-password a {
+    font-size: 11px;
+    color: #0099ff;
+    text-decoration: none;
+  }
+  
+  .form .login-button {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    background: linear-gradient(45deg, rgb(16, 137, 211) 0%, rgb(18, 177, 209) 100%);
+    color: white;
+    padding-block: 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form .login-button:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(156, 134, 10, 0.878) 0px 23px 10px -20px;
+  }
+  
+  .form .login-button:active {
+    transform: scale(0.95);
+    box-shadow: rgba(49, 165, 14, 0.878) 0px 15px 10px -10px;
+  }
+  
+  .social-account-container {
+    margin-top: 25px;
+  }
+  
+  .social-account-container .title {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(170, 170, 170);
+  }
+  
+  .social-account-container .social-accounts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+  }
+  
+  .social-account-container .social-accounts .social-button {
+    background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(112, 112, 112) 100%);
+    border: 5px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+    aspect-ratio: 1;
+    display: grid;
+    place-content: center;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 12px 10px -8px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .social-account-container .social-accounts .social-button .svg {
+    fill: white;
+    margin: auto;
+  }
+  
+  .social-account-container .social-accounts .social-button:hover {
+    transform: scale(1.2);
+  }
+  
+  .social-account-container .social-accounts .social-button:active {
+    transform: scale(0.9);
+  }
+  
+  .agreement {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .agreement a {
+    text-decoration: none;
+    color: #0099ff;
+    font-size: 9px;
+  } */
+
+
+  /* .backWhite{
+    background-color: white;
+    width: 470px;
+    height: max-content;
+    margin: 8rem 1rem 0rem 5rem;
+    color: black;
+  }  */
+
+
+
+
+
+  /* Style for form container */
+
+
+  form{
+    
+    background-color: #fff;
+    /* top: 15%; */
+    padding: 30px;
+    /* margin-left: 5%; */
+    margin-top: 4rem;
+    /* margin-right: 2%; */
+}
+.form-container {
+  /* width: 100%;
+ 
+  /* margin: 0 auto; Center the form */
+  /* padding: 20px; */
+  /* background-color: #f9f9f9; */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  */
+  color: black;
+  width: 480px;
+}
+
+/* Style for each form group */
+.form-group {
+  /* margin-bottom: 18px; */
+  display: flex;
+  align-items: center;
+}
+
+/* Label styling */
+.form-group label {
+  /* width: 100px;  */
+  /* font-weight: bold; */
+  /* margin-right: 10px; */
+  padding-right: 15px;
+  margin-top: 29px;
+}
+
+/* Input styling */
+.form-input {
+  flex: 1;
+  border: none;
+  border-bottom: 2px solid #000; /* Only bottom border */
+  padding: 5px 0;
+  outline: none;
+  font-size: 20px;
+}
+
+.form-input:focus {
+  border-bottom: 2px solid #007bff; /* Change color on focus */
+}
+
+/* Button styling */
+.btn-submit {
+  margin-top: 1rem;
+  margin-left: 10rem;
+  padding: 10px 23px;
+  background-color: #18042B;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+
+
+ /* font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }  .group { */
+    /* position: relative;
+   }
+    */
+   /* .input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+   } */
+   
+   /* .input:focus {
+    outline: none;
+   }
+   
+   label {
+    color: #999; */
+
+
+
+    /* Style for the form container */
+
+
+/* Custom input styling: only bottom border */
+/* .custom-input {
+  border: none;
+  border-bottom: 2px solid #333; /* Dark bottom border */
+  /* border-radius: 0;
+  outline: none;
+  width: 100%; /* Full width of the container */
+
+
+/* .custom-input:focus {
+  border-bottom: 2px solid #007bff; /* Blue bottom border when focused */
+  /* box-shadow: none;
+} */ 
+
+/* Style for labels */
+/* .form-label {
+  font-weight: bold;
+  margin-right: 10px;
+  display: inline-block;
+  width: 100px; /* Fixed width for label to align inputs neatly */
+
+
+   
+
+   
+   
+ 
+   
+ 
+   
